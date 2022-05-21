@@ -1,0 +1,118 @@
+body {
+    margin:  0;
+    font-family: 'Montserrat', sans-serif;
+    max-width:2100px;
+}
+main {
+    width: auto;
+    height: auto;
+}
+.nav {
+    position: absolute;
+    display: flex;
+    list-style-type:none ;
+    justify-content: center;
+    padding-left: 0;
+    left:370px
+}
+
+.nav > li {
+    margin-top:-90px;
+    margin-left:10px;
+    margin-right:20px;
+    
+}
+
+.nav > li > a {
+    text-decoration: none;
+    color: #5095E5
+}
+
+.container {
+   margin:  0px 160px;
+}
+    
+.header {
+    background-image:url(gor.png) ;
+    height:100vh;
+    background-repeat: no-repeat;
+   
+   
+    background-position: 0px 300px
+    
+}
+.header-line { 
+    padding-top: 50px;
+
+    align-items: center;
+}
+.nav-item {
+ font-weight: 600;
+ font-size: 20px;
+ transition: color 0.3 linear;
+}
+
+.nav-item:hover {
+    color: #FFFFE0;
+   }
+
+   .block {
+     display: table; height: 100%; padding: 10px; border: 1px solid #76C7EA;
+     right: 750px;
+       top:200px;
+       position: fixed;
+    width: 500px;
+    height: 600px;
+    background: #E4E2E2;
+    border-radius: 20px;
+    position: fixed;
+   }
+   
+   *, *::before, *::after {
+    box-sizing: border-box;
+  }
+.text-field__input {
+   display: flex;
+    padding: 18px;
+    margin:-96px 0;
+    border:0; 
+  border-bottom:1px solid #eee; 
+    border-radius: 16px;
+    width: 320px;
+    margin-left: 80px;
+    margin-top: 135px;
+}
+
+.header-button {
+    position: absolute;
+    background-color: #76C7EA;
+    padding: 20px 60px;
+    color: #FFFFFF;
+    font-size: 18px;
+    font-weight: 600;
+    font-family: 'Montserrat', sans-serif;
+    text-decoration: none;
+    border-radius: 40px;
+    margin-left: 100px;
+   bottom: 40px;
+}
+
+.text ul {
+    position: absolute;
+    display: flex;
+    font-family: 'Montserrat';
+font-style: normal;
+font-weight: 500;
+font-size: 32px;
+line-height: 49px;
+margin-top: -320px;
+margin-left:50px
+}
+
+.fon img {
+    display: flex;
+    position: absolute;
+    margin-left: 100px;
+    margin-top:-700px;
+    transform: scaleX(-1);
+}
